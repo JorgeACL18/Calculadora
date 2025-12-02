@@ -15,3 +15,12 @@ Dentro del bucle se aprecia como se declara la función resolviendoOP, esta mism
 
 Ahora, dentro de esta función, se utiliza switch-case para poder tomar decisiones múltiples (es algo parecido a un if-else pero mucho más robusto y legible). En cada case tendremos que declarar las operaciones y lo que harán cada una, es decir, si se usa "mult" se busca multiplicar los números.
 
+
+# Cliente
+Ya terminado el servidor, podemos pasar al cliente, el cual se encarga de introducir las operaciones que queramos.
+
+<img width="792" height="1070" alt="Captura de pantalla 2025-12-02 233000" src="https://github.com/user-attachments/assets/9daeeaab-adb8-4738-b6f3-286c065df33f" />
+
+Cuando el servidor ya esté esperando a un cliente, se ejecuta este código para poder realizar esta conexión. 
+
+La principal función de este código se encuentra en el bucle, ya que es aquí donde podremos indicarle las operaciones al servidor, además de, si escribimos "ejemplos", se abrirá una lista con todas las operaciones disponibles.
